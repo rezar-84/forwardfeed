@@ -1,0 +1,67 @@
+# ------------------------------
+# Drupal 11 / Drupal CMS
+# ------------------------------
+
+# Composer managed (root only)
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+# Public & private files (UPLOADS)
+/web/sites/*/files/
+/sites/*/files/
+/private/
+/sites/*/private/
+
+# Settings & secrets
+/web/sites/*/settings.php
+/web/sites/*/settings.local.php
+/web/sites/*/services.yml
+/web/sites/*/services.local.yml
+
+# Config sync (env specific)
+/config/sync/
+
+# Temp / cache
+/tmp/
+/cache/
+/web/sites/*/tmp/
+/web/sites/*/php/
+
+# Logs
+*.log
+/logs/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Frontend
+/node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# IDE / OS
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Composer
+/composer.phar
+
+# Tests
+/phpunit.xml
+/phpunit.xml.dist
+
+# Backups
+*.sql
+*.sqlite
+*.gz
+*.zip
+*.tar
+*.bak

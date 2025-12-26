@@ -802,6 +802,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'drupal/imce' => array(
+            'pretty_version' => '3.1.4',
+            'version' => '3.1.4.0',
+            'reference' => '3.1.4',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/imce',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'drupal/jquery_ui' => array(
             'pretty_version' => '1.8.0',
             'version' => '1.8.0.0',

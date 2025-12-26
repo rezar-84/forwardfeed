@@ -1,0 +1,7 @@
+<?php
+
+function forwardfeed_preprocess_html(&$variables)
+{
+  $variables['#attached']['library'][] = 'forwardfeed/forwardfeed.skin.default';
+
+}
